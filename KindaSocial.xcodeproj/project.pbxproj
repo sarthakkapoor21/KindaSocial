@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4CD383C91F16D55200C2E38D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD383C81F16D55200C2E38D /* AppDelegate.swift */; };
-		4CD383CB1F16D55200C2E38D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD383CA1F16D55200C2E38D /* ViewController.swift */; };
+		4CD383CB1F16D55200C2E38D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD383CA1F16D55200C2E38D /* SignInViewController.swift */; };
 		4CD383CE1F16D55200C2E38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD383CC1F16D55200C2E38D /* Main.storyboard */; };
 		4CD383D01F16D55200C2E38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD383CF1F16D55200C2E38D /* Assets.xcassets */; };
 		4CD383D31F16D55200C2E38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD383D11F16D55200C2E38D /* LaunchScreen.storyboard */; };
@@ -20,7 +20,7 @@
 		0DDB384315A01FDB67DD6D31 /* Pods-KindaSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KindaSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-KindaSocial/Pods-KindaSocial.release.xcconfig"; sourceTree = "<group>"; };
 		4CD383C51F16D55200C2E38D /* KindaSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindaSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD383C81F16D55200C2E38D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CD383CA1F16D55200C2E38D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CD383CA1F16D55200C2E38D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4CD383CD1F16D55200C2E38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CD383CF1F16D55200C2E38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CD383D21F16D55200C2E38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,6 +42,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C0E2E861F16DD5D00EBB190 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CD383CA1F16D55200C2E38D /* SignInViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4C0E2E871F16DD6800EBB190 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4C0E2E881F16DD6E00EBB190 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		4CD383BC1F16D55200C2E38D = {
 			isa = PBXGroup;
 			children = (
@@ -63,8 +85,10 @@
 		4CD383C71F16D55200C2E38D /* KindaSocial */ = {
 			isa = PBXGroup;
 			children = (
+				4C0E2E881F16DD6E00EBB190 /* Model */,
+				4C0E2E871F16DD6800EBB190 /* View */,
+				4C0E2E861F16DD5D00EBB190 /* Controller */,
 				4CD383C81F16D55200C2E38D /* AppDelegate.swift */,
-				4CD383CA1F16D55200C2E38D /* ViewController.swift */,
 				4CD383CC1F16D55200C2E38D /* Main.storyboard */,
 				4CD383CF1F16D55200C2E38D /* Assets.xcassets */,
 				4CD383D11F16D55200C2E38D /* LaunchScreen.storyboard */,
@@ -215,7 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD383CB1F16D55200C2E38D /* ViewController.swift in Sources */,
+				4CD383CB1F16D55200C2E38D /* SignInViewController.swift in Sources */,
 				4CD383C91F16D55200C2E38D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +404,7 @@
 				4CD383D91F16D55200C2E38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
