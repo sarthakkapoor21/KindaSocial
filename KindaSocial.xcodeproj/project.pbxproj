@@ -12,9 +12,12 @@
 		4CD383CE1F16D55200C2E38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD383CC1F16D55200C2E38D /* Main.storyboard */; };
 		4CD383D01F16D55200C2E38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD383CF1F16D55200C2E38D /* Assets.xcassets */; };
 		4CD383D31F16D55200C2E38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD383D11F16D55200C2E38D /* LaunchScreen.storyboard */; };
+		4CD383DB1F16D6EC00C2E38D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CD383DA1F16D6EC00C2E38D /* GoogleService-Info.plist */; };
+		5B588DE04E29730672D9D47D /* Pods_KindaSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A844BBBB48795CC2B26108DD /* Pods_KindaSocial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DDB384315A01FDB67DD6D31 /* Pods-KindaSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KindaSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-KindaSocial/Pods-KindaSocial.release.xcconfig"; sourceTree = "<group>"; };
 		4CD383C51F16D55200C2E38D /* KindaSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindaSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD383C81F16D55200C2E38D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD383CA1F16D55200C2E38D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		4CD383CF1F16D55200C2E38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CD383D21F16D55200C2E38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CD383D41F16D55200C2E38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD383DA1F16D6EC00C2E38D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84783CCFA8729148A6CFDFE6 /* Pods-KindaSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KindaSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KindaSocial/Pods-KindaSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		A844BBBB48795CC2B26108DD /* Pods_KindaSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KindaSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B588DE04E29730672D9D47D /* Pods_KindaSocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				4CD383C71F16D55200C2E38D /* KindaSocial */,
 				4CD383C61F16D55200C2E38D /* Products */,
+				69176B178DA02BCD1702F48C /* Pods */,
+				F3D6508609A4CDC292B08D7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				4CD383CF1F16D55200C2E38D /* Assets.xcassets */,
 				4CD383D11F16D55200C2E38D /* LaunchScreen.storyboard */,
 				4CD383D41F16D55200C2E38D /* Info.plist */,
+				4CD383DA1F16D6EC00C2E38D /* GoogleService-Info.plist */,
 			);
 			path = KindaSocial;
+			sourceTree = "<group>";
+		};
+		69176B178DA02BCD1702F48C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84783CCFA8729148A6CFDFE6 /* Pods-KindaSocial.debug.xcconfig */,
+				0DDB384315A01FDB67DD6D31 /* Pods-KindaSocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3D6508609A4CDC292B08D7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A844BBBB48795CC2B26108DD /* Pods_KindaSocial.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CD383D71F16D55200C2E38D /* Build configuration list for PBXNativeTarget "KindaSocial" */;
 			buildPhases = (
+				E0C7467CBAFBB4DD5B7C28A4 /* [CP] Check Pods Manifest.lock */,
 				4CD383C11F16D55200C2E38D /* Sources */,
 				4CD383C21F16D55200C2E38D /* Frameworks */,
 				4CD383C31F16D55200C2E38D /* Resources */,
+				BAE0BCFF6ECEB700205B17CF /* [CP] Embed Pods Frameworks */,
+				245320426E25E333415BA2DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,12 +154,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD383D31F16D55200C2E38D /* LaunchScreen.storyboard in Resources */,
+				4CD383DB1F16D6EC00C2E38D /* GoogleService-Info.plist in Resources */,
 				4CD383D01F16D55200C2E38D /* Assets.xcassets in Resources */,
 				4CD383CE1F16D55200C2E38D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		245320426E25E333415BA2DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KindaSocial/Pods-KindaSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE0BCFF6ECEB700205B17CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KindaSocial/Pods-KindaSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C7467CBAFBB4DD5B7C28A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CD383C11F16D55200C2E38D /* Sources */ = {
@@ -258,6 +337,7 @@
 		};
 		4CD383D81F16D55200C2E38D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84783CCFA8729148A6CFDFE6 /* Pods-KindaSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KindaSocial/Info.plist;
@@ -270,6 +350,7 @@
 		};
 		4CD383D91F16D55200C2E38D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDB384315A01FDB67DD6D31 /* Pods-KindaSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KindaSocial/Info.plist;
