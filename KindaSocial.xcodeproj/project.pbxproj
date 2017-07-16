@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C4CD2681F1815FA0024BDC7 /* font1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CD2671F1815FA0024BDC7 /* font1.otf */; };
+		4C4CD26A1F18161F0024BDC7 /* font2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CD2691F18161F0024BDC7 /* font2.otf */; };
+		4C4CD26C1F1818340024BDC7 /* Capsule.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CD26B1F1818340024BDC7 /* Capsule.otf */; };
+		4C4CD26E1F18184A0024BDC7 /* timeburnerbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CD26D1F18184A0024BDC7 /* timeburnerbold.ttf */; };
+		4C4CD2711F1818620024BDC7 /* trench100free.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CD2701F1818620024BDC7 /* trench100free.ttf */; };
+		4C4CD2721F18186D0024BDC7 /* timeburnernormal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CD26F1F1818500024BDC7 /* timeburnernormal.ttf */; };
+		4C4CD2741F1818850024BDC7 /* KGHAPPY.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CD2731F1818850024BDC7 /* KGHAPPY.ttf */; };
+		4C4CD2761F1818A00024BDC7 /* Heartache.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CD2751F1818A00024BDC7 /* Heartache.ttf */; };
+		4C4CD2781F18192A0024BDC7 /* Confetti.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CD2771F18192A0024BDC7 /* Confetti.ttf */; };
+		4C4CD27A1F1819C20024BDC7 /* fashionista.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C4CD2791F1819C20024BDC7 /* fashionista.ttf */; };
+		4C4CD27C1F1821EF0024BDC7 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CD27B1F1821EF0024BDC7 /* ShadowView.swift */; };
+		4C4CD27F1F1822240024BDC7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CD27E1F1822240024BDC7 /* Constants.swift */; };
+		4C4CD2811F1854A60024BDC7 /* SignInRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CD2801F1854A60024BDC7 /* SignInRound.swift */; };
+		4C4CD2831F1857070024BDC7 /* SocialSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CD2821F1857070024BDC7 /* SocialSignIn.swift */; };
+		4C4CD2851F1857E30024BDC7 /* EmailPassSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CD2841F1857E30024BDC7 /* EmailPassSignIn.swift */; };
 		4CD383C91F16D55200C2E38D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD383C81F16D55200C2E38D /* AppDelegate.swift */; };
 		4CD383CB1F16D55200C2E38D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD383CA1F16D55200C2E38D /* SignInViewController.swift */; };
 		4CD383CE1F16D55200C2E38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD383CC1F16D55200C2E38D /* Main.storyboard */; };
@@ -18,6 +33,22 @@
 
 /* Begin PBXFileReference section */
 		0DDB384315A01FDB67DD6D31 /* Pods-KindaSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KindaSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-KindaSocial/Pods-KindaSocial.release.xcconfig"; sourceTree = "<group>"; };
+		4C4CD2671F1815FA0024BDC7 /* font1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font1.otf; sourceTree = "<group>"; };
+		4C4CD2691F18161F0024BDC7 /* font2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font2.otf; sourceTree = "<group>"; };
+		4C4CD26B1F1818340024BDC7 /* Capsule.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Capsule.otf; sourceTree = "<group>"; };
+		4C4CD26D1F18184A0024BDC7 /* timeburnerbold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = timeburnerbold.ttf; sourceTree = "<group>"; };
+		4C4CD26F1F1818500024BDC7 /* timeburnernormal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = timeburnernormal.ttf; sourceTree = "<group>"; };
+		4C4CD2701F1818620024BDC7 /* trench100free.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = trench100free.ttf; sourceTree = "<group>"; };
+		4C4CD2731F1818850024BDC7 /* KGHAPPY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KGHAPPY.ttf; sourceTree = "<group>"; };
+		4C4CD2751F1818A00024BDC7 /* Heartache.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Heartache.ttf; sourceTree = "<group>"; };
+		4C4CD2771F18192A0024BDC7 /* Confetti.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Confetti.ttf; sourceTree = "<group>"; };
+		4C4CD2791F1819C20024BDC7 /* fashionista.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fashionista.ttf; sourceTree = "<group>"; };
+		4C4CD27B1F1821EF0024BDC7 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		4C4CD27E1F1822240024BDC7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4C4CD2801F1854A60024BDC7 /* SignInRound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRound.swift; sourceTree = "<group>"; };
+		4C4CD2821F1857070024BDC7 /* SocialSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialSignIn.swift; sourceTree = "<group>"; };
+		4C4CD2841F1857E30024BDC7 /* EmailPassSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailPassSignIn.swift; sourceTree = "<group>"; };
+		4CC8FDAF1F1BC7F60025D1C4 /* KindaSocial-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KindaSocial-Bridging-Header.h"; sourceTree = "<group>"; };
 		4CD383C51F16D55200C2E38D /* KindaSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindaSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD383C81F16D55200C2E38D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD383CA1F16D55200C2E38D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +84,10 @@
 		4C0E2E871F16DD6800EBB190 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4C4CD27B1F1821EF0024BDC7 /* ShadowView.swift */,
+				4C4CD2801F1854A60024BDC7 /* SignInRound.swift */,
+				4C4CD2821F1857070024BDC7 /* SocialSignIn.swift */,
+				4C4CD2841F1857E30024BDC7 /* EmailPassSignIn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -62,6 +97,31 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		4C4CD2661F1815B50024BDC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CD2671F1815FA0024BDC7 /* font1.otf */,
+				4C4CD2691F18161F0024BDC7 /* font2.otf */,
+				4C4CD26B1F1818340024BDC7 /* Capsule.otf */,
+				4C4CD26D1F18184A0024BDC7 /* timeburnerbold.ttf */,
+				4C4CD26F1F1818500024BDC7 /* timeburnernormal.ttf */,
+				4C4CD2701F1818620024BDC7 /* trench100free.ttf */,
+				4C4CD2731F1818850024BDC7 /* KGHAPPY.ttf */,
+				4C4CD2751F1818A00024BDC7 /* Heartache.ttf */,
+				4C4CD2771F18192A0024BDC7 /* Confetti.ttf */,
+				4C4CD2791F1819C20024BDC7 /* fashionista.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4C4CD27D1F1822120024BDC7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4C4CD27E1F1822240024BDC7 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		4CD383BC1F16D55200C2E38D = {
@@ -85,6 +145,8 @@
 		4CD383C71F16D55200C2E38D /* KindaSocial */ = {
 			isa = PBXGroup;
 			children = (
+				4C4CD27D1F1822120024BDC7 /* Util */,
+				4C4CD2661F1815B50024BDC7 /* Resources */,
 				4C0E2E881F16DD6E00EBB190 /* Model */,
 				4C0E2E871F16DD6800EBB190 /* View */,
 				4C0E2E861F16DD5D00EBB190 /* Controller */,
@@ -94,6 +156,7 @@
 				4CD383D11F16D55200C2E38D /* LaunchScreen.storyboard */,
 				4CD383D41F16D55200C2E38D /* Info.plist */,
 				4CD383DA1F16D6EC00C2E38D /* GoogleService-Info.plist */,
+				4CC8FDAF1F1BC7F60025D1C4 /* KindaSocial-Bridging-Header.h */,
 			);
 			path = KindaSocial;
 			sourceTree = "<group>";
@@ -150,6 +213,7 @@
 				TargetAttributes = {
 					4CD383C41F16D55200C2E38D = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -178,9 +242,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD383D31F16D55200C2E38D /* LaunchScreen.storyboard in Resources */,
+				4C4CD26C1F1818340024BDC7 /* Capsule.otf in Resources */,
+				4C4CD2711F1818620024BDC7 /* trench100free.ttf in Resources */,
 				4CD383DB1F16D6EC00C2E38D /* GoogleService-Info.plist in Resources */,
 				4CD383D01F16D55200C2E38D /* Assets.xcassets in Resources */,
+				4C4CD26E1F18184A0024BDC7 /* timeburnerbold.ttf in Resources */,
+				4C4CD2761F1818A00024BDC7 /* Heartache.ttf in Resources */,
+				4C4CD2721F18186D0024BDC7 /* timeburnernormal.ttf in Resources */,
+				4C4CD26A1F18161F0024BDC7 /* font2.otf in Resources */,
+				4C4CD2741F1818850024BDC7 /* KGHAPPY.ttf in Resources */,
+				4C4CD27A1F1819C20024BDC7 /* fashionista.ttf in Resources */,
 				4CD383CE1F16D55200C2E38D /* Main.storyboard in Resources */,
+				4C4CD2681F1815FA0024BDC7 /* font1.otf in Resources */,
+				4C4CD2781F18192A0024BDC7 /* Confetti.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4CD27C1F1821EF0024BDC7 /* ShadowView.swift in Sources */,
+				4C4CD2831F1857070024BDC7 /* SocialSignIn.swift in Sources */,
 				4CD383CB1F16D55200C2E38D /* SignInViewController.swift in Sources */,
 				4CD383C91F16D55200C2E38D /* AppDelegate.swift in Sources */,
+				4C4CD2851F1857E30024BDC7 /* EmailPassSignIn.swift in Sources */,
+				4C4CD27F1F1822240024BDC7 /* Constants.swift in Sources */,
+				4C4CD2811F1854A60024BDC7 /* SignInRound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,10 +443,13 @@
 			baseConfigurationReference = 84783CCFA8729148A6CFDFE6 /* Pods-KindaSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = KindaSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk21.KindaSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./KindaSocial/KindaSocial-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -377,10 +459,12 @@
 			baseConfigurationReference = 0DDB384315A01FDB67DD6D31 /* Pods-KindaSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = KindaSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk21.KindaSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./KindaSocial/KindaSocial-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

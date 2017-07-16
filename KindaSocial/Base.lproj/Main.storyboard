@@ -6,8 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="timeburnerbold.ttf">
+            <string>TimeBurner-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Sign In View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -20,11 +26,168 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ei-H5-oka" customClass="ShadowView" customModule="KindaSocial" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kindaSocial" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ImT-Nb-F57">
+                                        <rect key="frame" x="0.0" y="60" width="375" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="oDY-hz-Zmp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="TimeBurner-Bold" family="TimeBurner" pointSize="43"/>
+                                        <color key="textColor" red="0.99195677042007446" green="0.99622899293899536" blue="0.99192315340042114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.12941176470588234" green="0.58823529411764708" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ImT-Nb-F57" firstAttribute="centerX" secondItem="9ei-H5-oka" secondAttribute="centerX" id="E1n-NN-ySY"/>
+                                    <constraint firstAttribute="height" constant="200" id="lUl-2c-FbD"/>
+                                    <constraint firstItem="ImT-Nb-F57" firstAttribute="leading" secondItem="9ei-H5-oka" secondAttribute="leading" id="mS5-Bv-V4A"/>
+                                    <constraint firstItem="ImT-Nb-F57" firstAttribute="centerY" secondItem="9ei-H5-oka" secondAttribute="centerY" id="t9t-4r-AGg"/>
+                                    <constraint firstAttribute="trailing" secondItem="ImT-Nb-F57" secondAttribute="trailing" id="yVq-c4-oKm"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GHi-eF-fSe" customClass="ShadowView" customModule="KindaSocial" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="597" width="375" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We'll automatically create one for you." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0Z-IU-f7H">
+                                        <rect key="frame" x="43" y="37" width="289" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="f6T-0c-j5K"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                        <color key="textColor" red="0.99195677042007446" green="0.99622899293899536" blue="0.99192315340042114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you don't have an account." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klB-NU-vC1">
+                                        <rect key="frame" x="79" y="14" width="217.5" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="4QF-i2-Fxd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                        <color key="textColor" red="0.99195677042007446" green="0.99622899293899536" blue="0.99192315340042114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.098039215686274508" green="0.46274509803921571" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="klB-NU-vC1" firstAttribute="top" secondItem="GHi-eF-fSe" secondAttribute="top" constant="14" id="EmX-v0-4tO"/>
+                                    <constraint firstAttribute="height" constant="70" id="NaN-EH-RlZ"/>
+                                    <constraint firstItem="B0Z-IU-f7H" firstAttribute="centerX" secondItem="GHi-eF-fSe" secondAttribute="centerX" id="hiN-in-xzg"/>
+                                    <constraint firstItem="B0Z-IU-f7H" firstAttribute="top" secondItem="klB-NU-vC1" secondAttribute="bottom" constant="2" id="jlt-vW-fC3"/>
+                                    <constraint firstItem="klB-NU-vC1" firstAttribute="centerX" secondItem="GHi-eF-fSe" secondAttribute="centerX" id="qPp-rv-rRU"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a Sign In option" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7o2-Uj-eW6">
+                                <rect key="frame" x="95.5" y="220" width="183.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="tKo-aM-2Rx">
+                                <rect key="frame" x="46" y="447" width="283" height="115"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2FB-nI-4SO">
+                                        <rect key="frame" x="0.0" y="0.0" width="283" height="70"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QGU-zV-bfh" customClass="EmailPassSignIn" customModule="KindaSocial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="283" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="uIf-P0-3ja"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1oE-mz-GUN" customClass="EmailPassSignIn" customModule="KindaSocial" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="40" width="283" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="6zG-zx-Jtb"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94z-wX-Zwu" customClass="SignInRound" customModule="KindaSocial" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="85" width="283" height="30"/>
+                                        <color key="backgroundColor" red="0.12941176470588234" green="0.58823529411764708" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="tqS-FI-TMB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                        <state key="normal" title="Sign In">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="signInButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ngu-v2-Umk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="2FB-nI-4SO" secondAttribute="trailing" id="0gA-1Q-fRn"/>
+                                    <constraint firstItem="2FB-nI-4SO" firstAttribute="leading" secondItem="tKo-aM-2Rx" secondAttribute="leading" id="5En-PZ-jmQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="94z-wX-Zwu" secondAttribute="trailing" id="O8C-EM-QmN"/>
+                                    <constraint firstItem="94z-wX-Zwu" firstAttribute="leading" secondItem="tKo-aM-2Rx" secondAttribute="leading" id="bJm-Th-FSX"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rfE-vA-peJ">
+                                <rect key="frame" x="67" y="268" width="240" height="130"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fet-Nr-xFu" customClass="SocialSignIn" customModule="KindaSocial" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="VgZ-GJ-1el"/>
+                                            <constraint firstAttribute="height" constant="60" id="g9S-z9-aj9"/>
+                                        </constraints>
+                                        <state key="normal" image="facebookButton"/>
+                                        <connections>
+                                            <action selector="facebookSignInButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="17b-2Q-PBt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KvZ-O6-9S1" customClass="SocialSignIn" customModule="KindaSocial" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="70" width="240" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="s24-71-I96"/>
+                                            <constraint firstAttribute="height" constant="60" id="w8H-ZT-wjP"/>
+                                        </constraints>
+                                        <state key="normal" image="googleButton"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9ei-H5-oka" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="44f-HM-Efe"/>
+                            <constraint firstItem="GHi-eF-fSe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4JS-nA-JQi"/>
+                            <constraint firstItem="rfE-vA-peJ" firstAttribute="top" secondItem="7o2-Uj-eW6" secondAttribute="bottom" constant="24.5" id="Gsk-Mu-o7k"/>
+                            <constraint firstAttribute="trailing" secondItem="GHi-eF-fSe" secondAttribute="trailing" id="QRi-Jb-4Vi"/>
+                            <constraint firstItem="rfE-vA-peJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VI0-9c-TWd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GHi-eF-fSe" secondAttribute="bottom" id="Xt0-7b-x6B"/>
+                            <constraint firstItem="9ei-H5-oka" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YzP-Df-Tda"/>
+                            <constraint firstAttribute="trailing" secondItem="9ei-H5-oka" secondAttribute="trailing" id="Zo5-lm-cED"/>
+                            <constraint firstItem="7o2-Uj-eW6" firstAttribute="top" secondItem="9ei-H5-oka" secondAttribute="bottom" constant="20" id="dld-j3-qN7"/>
+                            <constraint firstItem="GHi-eF-fSe" firstAttribute="top" secondItem="tKo-aM-2Rx" secondAttribute="bottom" constant="35" id="fnK-Lj-Ye6"/>
+                            <constraint firstItem="7o2-Uj-eW6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nZi-62-0cQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tKo-aM-2Rx" secondAttribute="trailing" constant="30" id="ph4-YT-Nlc"/>
+                            <constraint firstItem="tKo-aM-2Rx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="rrx-W2-pRI"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="QGU-zV-bfh" id="6AA-Y3-cDH"/>
+                        <outlet property="passwordField" destination="1oE-mz-GUN" id="CS8-7v-DK8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="facebookButton" width="1200" height="300"/>
+        <image name="googleButton" width="1200" height="300"/>
+    </resources>
 </document>
