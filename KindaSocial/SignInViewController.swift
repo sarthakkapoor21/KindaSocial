@@ -13,7 +13,7 @@ import FBSDKLoginKit
 import FacebookLogin
 import FacebookCore
 
-class SignInViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDelegate {
+class SignInViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     var handle: AuthStateDidChangeListenerHandle?
     
@@ -21,18 +21,12 @@ class SignInViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignI
     
     @IBOutlet weak var passwordField: EmailPassSignIn!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let loginButton = FBSDKLoginButton()
         loginButton.delegate = self
-        
-        GIDSignIn.sharedInstance().uiDelegate = self
-        
-        GIDSignIn.sharedInstance().signInSilently()
-        
+
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -154,5 +148,9 @@ class SignInViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignI
         }
     }
     
+    func saveUser(id: String) {
+        
+        KeychainWrapper.standard.set(id, forKey: KEY_UID)
+    }
 }
 

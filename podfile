@@ -13,5 +13,5 @@ target 'KindaSocial' do
   pod 'FacebookCore'
   pod 'FacebookLogin'
   pod 'FacebookShare'
-  pod 'Google/SignIn'
+  pod 'SwiftKeychainWrapper', '~> 3.0'
 end

@@ -148,7 +148,7 @@
                                             <action selector="facebookSignInButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="17b-2Q-PBt"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KvZ-O6-9S1" customClass="SocialSignIn" customModule="KindaSocial" customModuleProvider="target">
+                                    <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KvZ-O6-9S1" customClass="SocialSignIn" customModule="KindaSocial" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="70" width="240" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="s24-71-I96"/>

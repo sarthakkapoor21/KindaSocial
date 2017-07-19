@@ -48,7 +48,6 @@
 		4C4CD2801F1854A60024BDC7 /* SignInRound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRound.swift; sourceTree = "<group>"; };
 		4C4CD2821F1857070024BDC7 /* SocialSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialSignIn.swift; sourceTree = "<group>"; };
 		4C4CD2841F1857E30024BDC7 /* EmailPassSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailPassSignIn.swift; sourceTree = "<group>"; };
-		4CC8FDAF1F1BC7F60025D1C4 /* KindaSocial-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KindaSocial-Bridging-Header.h"; sourceTree = "<group>"; };
 		4CD383C51F16D55200C2E38D /* KindaSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindaSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD383C81F16D55200C2E38D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD383CA1F16D55200C2E38D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -156,7 +155,6 @@
 				4CD383D11F16D55200C2E38D /* LaunchScreen.storyboard */,
 				4CD383D41F16D55200C2E38D /* Info.plist */,
 				4CD383DA1F16D6EC00C2E38D /* GoogleService-Info.plist */,
-				4CC8FDAF1F1BC7F60025D1C4 /* KindaSocial-Bridging-Header.h */,
 			);
 			path = KindaSocial;
 			sourceTree = "<group>";
@@ -448,7 +446,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk21.KindaSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "./KindaSocial/KindaSocial-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -464,7 +463,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sk21.KindaSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "./KindaSocial/KindaSocial-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
